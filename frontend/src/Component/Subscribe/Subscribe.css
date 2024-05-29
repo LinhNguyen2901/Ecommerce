@@ -1,0 +1,44 @@
+.subscribe {
+    margin-top: 100px;
+    background-color: pink;
+    border-radius: 50px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.subscribe h1{
+    margin-top: 20px;
+}
+
+.email {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.email input {
+    width: 500px;
+    height: 60px;
+    margin-left: 30px;
+    outline: none;
+    border: none;
+    color: gray;
+    font-size: 20px;
+}
+
+.email button {
+    width: 200px;
+    height: 60px;
+    border-radius: 80px;
+    background: black;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.email button:hover {
+    background: gray;
+}

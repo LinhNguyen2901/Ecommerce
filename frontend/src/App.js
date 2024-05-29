@@ -9,6 +9,7 @@ import Navbar from './Component/Navbar/Navbar';
 import Men from './Pages/Men';
 import Women from './Pages/Women';
 import Kids from './Pages/Kids';
+import Footer from './Component/Footer/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/account' element={<Account/>}/>
 
       </Routes>
+      <Footer/>
       </BrowserRouter>
  
     </div>
