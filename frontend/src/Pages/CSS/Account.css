@@ -1,0 +1,62 @@
+.account-page{
+    line-height: 3;
+    margin-top: 70px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+}
+
+.signup input {
+    width: 70%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.signup input:focus {
+    border-color: #007BFF;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.account-page button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: gray;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.account-page button:hover {
+    background-color: #ccc;
+}
+
+.account-page p {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+    text-align: center;
+}
+
+/* Link Styles */
+p a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+p a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
